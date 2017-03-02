@@ -40,7 +40,7 @@ class ChoiceViewController: UIViewController {
     // The enum "Shape" represents a play or move
     private func getUserShape(_ sender: UIButton) -> Shape {
         // Titles are set to one of: Rock, Paper, or Scissors
-        print("getusershape")
+        
         let shape = sender.title(for: UIControlState())!
         return Shape(rawValue: shape)!
     }

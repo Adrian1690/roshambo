@@ -27,9 +27,9 @@
                                     <constraint firstAttribute="width" constant="37" id="6tT-eW-JBP"/>
                                     <constraint firstAttribute="height" constant="32" id="wFC-6b-k1E"/>
                                 </constraints>
-                                <state key="normal" image="paper"/>
+                                <state key="normal" title="Paper" image="paper"/>
                                 <connections>
-                                    <action selector="playPaper:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v4f-0R-wcT"/>
+                                    <action selector="playPaper:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gDh-F0-FJw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mh5-ds-3sy" userLabel="Rock Button">
@@ -40,7 +40,7 @@
                                 </constraints>
                                 <state key="normal" title="Rock" image="rock"/>
                                 <connections>
-                                    <action selector="playRock:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V44-yl-R1z"/>
+                                    <action selector="playRock:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BHO-WF-KBX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QiC-Wu-pUX" userLabel="Scissor Button">
@@ -49,9 +49,9 @@
                                     <constraint firstAttribute="height" constant="32" id="ZLL-W1-mX2"/>
                                     <constraint firstAttribute="width" constant="37" id="j3G-x7-7Dg"/>
                                 </constraints>
-                                <state key="normal" image="scissors"/>
+                                <state key="normal" title="Scissors" image="scissors"/>
                                 <connections>
-                                    <segue destination="hBi-5I-lzB" kind="presentation" identifier="play" id="t6b-x8-kpe"/>
+                                    <segue destination="hBi-5I-lzB" kind="presentation" identifier="play" id="FyV-bX-ZcV"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's Play!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXZ-hH-mcY">
@@ -128,7 +128,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sp8-vo-cYJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="865" y="222"/>
+            <point key="canvasLocation" x="866" y="124"/>
         </scene>
     </scenes>
     <resources>
